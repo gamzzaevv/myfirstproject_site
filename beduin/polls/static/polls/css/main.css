@@ -1,0 +1,88 @@
+body {
+    background: #2E8B57;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #778899;
+    border-right: 3px solid #2F4F4F;
+}
+
+aside img {
+    width: 130px;
+    float: left;
+}
+
+aside h3 {
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+
+    transition: transform .2s ease;
+}
+
+aside ul li:hover{
+    color: #2E8B57;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+aside ul a:hover {
+    color: #2E8B57;
+    text-decoration: none !important;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 20px;
+    text-aling: center;
+    margin-left: 20px;
+}
+
+main .camera {
+    float: left;
+    color: #fff;
+    margin-top: 20px;
+    text-aling: center;
+    margin-left: 20px;
+}
+
+.image-holder {
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    width: 30px;
+    height: 30px;
+}
+#снизу регулирует надпись главная страница
+div.features {
+}
+
+.image-holder-number-2 {
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    width: 60px;
+    height: 60px;
+}
